@@ -1,19 +1,19 @@
 
-let input = document.querySelector("input").value;
+let input = document.querySelector("#inputText");
 const checkBtn = document.querySelector(".checkBtn");
 const vowels = ['a', 'e', 'i', 'o', 'u'];
 let count = 0;
 
-/*
+
 function inputLength() {
     return input.value.length;
 }
-*/
+
 
 function vowelCounter(input) {
-    
-    for (let i = 0; i < input.length; i++) {
-        if(input[i] == 'a' || input[i] == 'e' || input[i] == 'i' || input[i] == 'o' || input[i] == 'u') {
+    console.log('test');
+    for (let i = 0; i < input.value.length; i++) {
+        if(input.value[i] == 'a' || input.value[i] == 'e' || input.value[i] == 'i' || input.value[i] == 'o' || input.value[i] == 'u') {
             count++;
         }
     }
@@ -22,8 +22,7 @@ function vowelCounter(input) {
 }
 
 function check() {
-    console.log('test');
-    if (input > 0) {
+    if (inputLength() > 0) {
         vowelCounter();
     }
 }
