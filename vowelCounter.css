@@ -51,16 +51,6 @@ body {
     background-color: #252934;
 }
 
-.delete {
-    display: none;
-}
-
-.off_White {
-    border-top: 1px solid #E6E8E9;
-    background-color: #f8fafd;
-    height: 100vh;
-}
-
 /*Link Animations Start*/
 
 .link {
