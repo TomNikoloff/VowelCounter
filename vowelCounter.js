@@ -10,7 +10,7 @@ function inputLength() {
 }
 
 
-function vowelCounter(input) {
+function vowelCounter() {
     console.log('test');
     for (let i = 0; i < input.value.length; i++) {
         if(input.value[i] == 'a' || input.value[i] == 'e' || input.value[i] == 'i' || input.value[i] == 'o' || input.value[i] == 'u') {
