@@ -19,6 +19,7 @@ function vowelCounter() {
     }
 
     alert('There are ' + count + ' vowels');
+    count = 0;
 }
 
 function check() {
