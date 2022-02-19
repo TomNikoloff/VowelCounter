@@ -27,7 +27,7 @@ body {
     color: var(--pseudo-color);
 }
 
-.checkBtn:hover {
+#checkBtn:hover {
     color: var(--pseudo-color);
 }
 

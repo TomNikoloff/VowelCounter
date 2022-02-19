@@ -1,7 +1,6 @@
 
 let input = document.querySelector("#inputText");
 const checkBtn = document.querySelector("#checkBtn");
-const vowels = ['a', 'e', 'i', 'o', 'u'];
 const vowelsDiv = document.querySelector("#vowelsDiv");
 let numOfVowels = document.querySelector("#numOfVowels");
 let count = 0;
@@ -13,7 +12,6 @@ function inputLength() {
 
 
 function vowelCounter() {
-    console.log('test');
     for (let i = 0; i < input.value.length; i++) {
         if(input.value[i] == 'a' || input.value[i] == 'e' || input.value[i] == 'i' || input.value[i] == 'o' || input.value[i] == 'u') {
             count++;
@@ -22,7 +20,9 @@ function vowelCounter() {
     numOfVowels.textContent = 'There are ' + count + ' vowels.';
     vowelsDiv.appendChild(numOfVowels);
     count = 0;
+    /*
     input.value = "";
+    */
 }
 
 function check() {
