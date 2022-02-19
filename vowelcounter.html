@@ -26,12 +26,15 @@
         <section>
             <div class="container">
                 <h1 class="title text-center">Vowel Counter</h1>
-                <h2 class="subtitle text-center">Count the vowels by entering text below</h2>
+                <h2 class="subtitle text-center">Check the total number of vowels below</h2>
                 <input id="inputText" class="form-control mt-5" placeholder="Enter your text here...">
                 <div class="btn_Div text-center">
-                    <button class="btn checkBtn link link--anim">
+                    <button id="checkBtn" class="btn link link--anim">
                         Check
                     </button>
+                </div>
+                <div id="vowelsDiv">
+                    <h1 id="numOfVowels" class="text-center"></h1>
                 </div>
             </div>
         </section>
